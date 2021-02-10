@@ -8,6 +8,9 @@ You will be provided a string that lists many boat related items. If any of thes
 Go to work!
 */
 
-function fireFight(s){
-  
+const fireFight = (s) => {
+  let string = s.toLowerCase();
+  if(s.includes('Fire')) {
+    return s.replace('Fire', '~~');
+  }
 }
